@@ -1,97 +1,545 @@
-
-/* Navigation */
-body{
-    margin: 24px 160px 20px 160px;
-    max-width: 1600px;
-    
+.fira-sans-fonts {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
 }
-nav{
+
+main section {
+    margin-top: 80px;
+}
+
+/*-----------------------------------------------fonts class ends here--------------------------------------  */
+/* Navigation */
+.nav-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sign-in-btn {
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: white;
+    color: #006A50;
+    font-weight: bold;
+    border-color: #006A50;
+    outline: none;
+    border: 1px solid;
+}
+
+body {
+    margin: 24px 160px;
+    max-width: 1600px;
+
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
 /* Banner section */
-.banner-class{
+.banner-title {
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 0px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+
+.banner-des {
+    margin-top: 0px;
+    font-size: 56px;
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 24px;
+}
+
+.Explore-new-Bangladesh {
+    margin-top: 0px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 37px;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+.banner-class {
     background-color: #C6E4D6;
     border-radius: 24px;
     background-size: 1280px 560px;
-    
+
 }
-.banner-divs{
+
+.banner-divs {
     display: flex;
     justify-content: space-between;
-    padding: 120px 80px;
-    
-    
+    padding: 100px 80px;
+
 }
-.banner-div1{
+
+.banner-div1 {
     margin-top: 117px;
+    margin-bottom: 0px;
 }
+
 /* Pillar of Bangladesh 2.0 */
-.pillar-sec-title{
+.pillar-sec-title {
     margin-top: 80px;
-    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    margin-bottom: 24px;
 }
-.pillar-columns{
+
+.pillar-columns {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-.pillar-clm{
+
+.pillar-clm {
     background-color: #FFFFFF;
-    box-shadow: 2px 4px 15px rgba(14, 14, 14, 0.15);
+    box-shadow: 1px 1px 15px rgba(14, 14, 14, 0.15);
     border-radius: 16px;
+    padding: 24px 24px;
+
 }
+
+.pillar-title {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.pillar-des {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
 
 /* Vision section */
-.vision-class{
+.vision-class {
     margin-top: 90px;
 }
-.visions-clms{
-    
+
+.vision-des {
+    font-size: 16px;
+    font-weight: regular;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.visions-clms {
+
     display: flex;
     justify-content: space-between;
     gap: 24px;
-   
-}
-.quote{
-    margin-top: 90px;
+    border-radius: 16px;
+
 }
 
+.vision-clm1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 32px 32px;
+}
 
-.recent-col1{
-    display: flex;
-    gap: 32px;
+.vision-clm2 {
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+    padding: 32px 32px;
+}
+
+.vision-clm3 {
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 16px;
+    padding: 32px 32px;
+}
+
+.learn-more1 {
+    background-color: #5490F5;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.learn-more2 {
+    background-color: #09A15C;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: 1px solid;
+
+}
+
+.learn-more3 {
+    background-color: #FFC239;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.quote {
+    margin-top: 32px;
+    padding: 48px 24px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+    margin-bottom: 0px;
+    background-image: url(../assets/quote-bg.png);
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: 2% 15%;
+}
+
+.quote-des {
+
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.quote-of {
+    margin-top: 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+.qoute-designation {
+    margin-top: 4px;
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(14, 14, 14, 0.6);
+}
+
+/* your opinion */
+.a-table {
+    padding: 32px 32px;
+    margin: auto;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 80%;
+    height: 200px;
     
+    margin: 0 auto;
+
 }
-.recent-col2{
+
+th,td {
+    padding: 24px 24px;
+
+}
+
+thead tr th {
+    background-color: #C6E4D6;
+    color: #333;
+    border: none;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+.qstn {
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 70%;
+}
+.answer
+{
+    border-radius: 4px;
+    background-color: #C6E4D6;
+}
+.ans{
+    width: 18%;
+}
+
+/* recent section */
+.recent-des {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.recent-col1 {
     display: flex;
-    justify-content: flex-end;
+    gap: 32px;
+
+}
+
+.recent-col2 {
+    display: flex;
+    justify-content: space-between;
     gap: 32px;
 }
-.recent-col3{
+
+.recent-col3 {
     display: flex;
     gap: 32px;
+
+}
+
+.recent-rows1 {
+    margin-top: 32px;
+    padding: 48px 48px;
+}
+
+.recent-rows2 {
+    margin-top: 24px;
+    padding: 48px 48px;
+}
+
+.recent-rows3 {
+    margin-top: 24px;
+    padding: 48px 48px;
+}
+
+.recent-title-img {
+    border-radius: 24px;
+}
+
+.rec-col-title {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+.rec-col-des {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: auto;
+}
+
+.dateNtime {
+    display: flex;
+    gap: 15px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.readmore {
+    padding: 13px 26px;
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+/* Donation section */
+
+.donate-today {
+
+    text-align: center;
+}
+
+.donate-cols {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+
+}
+
+.donate-col {
+
+    background-color: white;
+    padding: 40px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.donate-col:hover {
+
+    background-color: rgba(198, 228, 214, 1);
+    transform: scale(1.1);
+
+}
+
+.donate {
+    margin-top: 32px;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    color: white;
+    border: 1px solid;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.donate-des {
+
+    width: 85%;
+    margin: auto;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+
+.text {
+
+
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.textbox {
+
+    width: 60%;
+    margin: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0.5px 0.5px rgba(14, 14, 14, 0.15);
+    margin-top: 32px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+
+
+}
+
+/* Subscribe now */
+.subscribe-news {
+
+    text-align: center;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 80px 100px;
+    border-radius: 24px;
+}
+
+.sub-news-div {
+    margin: 80px 256px 80px 256px;
+}
+
+.subscribe {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
     
+
 }
 
+.text_box {
+    width: 400%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
 
+}
 
-
-
-
-
-
+.sub-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    border: none;
+    color: white;
+    padding: 17 34px;
+    background-color: #006A50;
+    border-radius: 0 8px 8px 0px;
+}
 
 
 
 /* footer */
-footer{
+footer {
     text-align: center;
 }
-.footer-logo{
+
+.footer-title {
+    justify-content: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.horizontalClass {
+    color: rgba(14, 14, 14, 0.1);
+
+}
+
+.footer-logo {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    align-items: center;
+    gap: 15px;
 }
