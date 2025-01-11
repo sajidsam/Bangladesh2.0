@@ -195,9 +195,8 @@ nav {
     background-color: white;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-
     margin-bottom: 0px;
-    background-image: url(../assets/quote-bg.png);
+    background-image: url('./assets/quote-bg.png');
     background-size: 64px 64px;
     background-repeat: no-repeat;
     background-position: 2% 15%;
