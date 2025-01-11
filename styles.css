@@ -528,3 +528,16 @@ footer {
     gap: 15px;
     margin-bottom:50px;
 }
+.sign-in-btn:hover,
+.Explore-new-Bangladesh:hover,
+.learn-more1:hover,
+.learn-more2:hover,
+.learn-more3:hover,
+.readmore:hover,
+.donate:hover,
+.sub-btn:hover {
+    background-color: #28a745;
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
