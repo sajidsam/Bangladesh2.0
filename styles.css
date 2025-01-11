@@ -35,7 +35,7 @@ nav {
 
 /* Banner section */
 .banner-title {
-    margin-top:0px;
+    margin-top: 0px;
     color: rgba(14, 14, 14, 0.5);
     font-family: "Fira Sans", serif;
     font-weight: 500;
@@ -244,12 +244,13 @@ table {
     border: 1px solid #ccc;
     width: 80%;
     height: 200px;
-    
+
     margin: 0 auto;
 
 }
 
-th,td {
+th,
+td {
     padding: 24px 24px;
 
 }
@@ -276,12 +277,13 @@ select {
     font-style: normal;
     width: 70%;
 }
-.answer
-{
+
+.answer {
     border-radius: 4px;
     background-color: #C6E4D6;
 }
-.ans{
+
+.ans {
     width: 18%;
 }
 
@@ -295,25 +297,16 @@ select {
     margin-bottom: 20px;
 }
 
-.recent-col1 {
-    display: flex;
-    gap: 32px;
-
-}
-
-.recent-col2 {
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
-}
-
+.recent-col1,
+.recent-col2,
 .recent-col3 {
     display: flex;
     gap: 32px;
-
 }
 
-.recent-rows1, .recent-rows2, .recent-rows3 {
+.recent-rows1,
+.recent-rows2,
+.recent-rows3 {
     margin-top: 24px;
     padding: 48px;
     border-radius: 24px;
@@ -477,16 +470,21 @@ select {
     position: relative;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
 .text_box {
     width: 400%;
-    height: 40px;
+    height: 60px;
     border-radius: 8px;
     border: none;
     outline: none;
+    padding: 0px 30px;
+    font-size: 16px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -494,13 +492,17 @@ select {
     position: absolute;
     top: 0;
     right: 0;
-    width: 20%;
+    width: 18%;
     height: 100%;
     border: none;
     color: white;
     padding: 17 34px;
     background-color: #006A50;
     border-radius: 0 8px 8px 0px;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 
@@ -508,6 +510,7 @@ select {
 /* footer */
 footer {
     text-align: center;
+    padding: 50px 160px;
 }
 
 .footer-title {
@@ -518,14 +521,11 @@ footer {
     font-size: 32px;
 }
 
-.horizontalClass {
-    color: rgba(14, 14, 14, 0.1);
-
-}
-
 .footer-logo {
+    margin-top: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin-bottom:50px;
 }
